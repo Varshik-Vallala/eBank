@@ -4,6 +4,7 @@ dependencies:
   '@testing-library/react': 11.2.5_react-dom@17.0.1+react@17.0.1
   '@testing-library/user-event': 12.6.2
   chalk: 4.1.0
+  cors: 2.8.5
   history: 5.0.1
   jest-styled-components: 7.0.5_styled-components@5.3.0
   js-cookie: 3.0.1
@@ -5187,6 +5188,15 @@ packages:
     dev: true
     resolution:
       integrity: sha512-ZQBvi1DcpJ4GDqanjucZ2Hj3wEO5pZDS89BWbkcrvdxksJorwUDDZamX9ldFkp9aw2lmBDLgkObEA4DWNJ9FYQ==
+  /cors/2.8.5:
+    dependencies:
+      object-assign: 4.1.1
+      vary: 1.1.2
+    dev: false
+    engines:
+      node: '>= 0.10'
+    resolution:
+      integrity: sha512-KIHbLJqu73RGr/hnbrO9uBeixNGuvSQjul/jdFvS/KFSIH1hWVd1ng7zOHx+YrEfInLG7q4n6GHQ9cDtxv/P6g==
   /cosmiconfig/5.2.1:
     dependencies:
       import-fresh: 2.0.0
@@ -13688,7 +13698,6 @@ packages:
     resolution:
       integrity: sha512-NOJ6JZCAWr0zlxZt+xqCHNTEKOsrks2HQd4MqhP1qy4z1SkbEP467eNx6TgDKXMvUOb+OENfJCZwM+16n7fRfw==
   /vary/1.1.2:
-    dev: true
     engines:
       node: '>= 0.8'
     resolution:
@@ -14329,6 +14338,7 @@ specifiers:
   '@testing-library/user-event': 12.6.2
   babel-plugin-styled-components: 1.13.2
   chalk: 4.1.0
+  cors: 2.8.5
   eslint-config-airbnb: 18.2.1
   eslint-config-prettier: 8.1.0
   eslint-plugin-prettier: 3.3.1
